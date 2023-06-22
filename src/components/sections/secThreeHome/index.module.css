@@ -1,0 +1,17 @@
+.z_1 {
+  z-index: 1;
+}
+.title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.desc {
+  /* white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Specify the number of lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

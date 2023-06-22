@@ -1,0 +1,6 @@
+.desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Specify the number of lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
